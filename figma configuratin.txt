@@ -1,0 +1,22 @@
+To configure your browser for Figma, ensure that you have the necessary settings and features in place. Here are the steps for configuring Figma on Google Chrome with technical terms and settings:
+
+1. Confirm WebGL Installation and Enablement:
+   - Verify that your browser has WebGL support enabled. You can check the WebGL status by visiting [http://webglreport.com/](http://webglreport.com/).
+   
+2. Set Browser Zoom to 100%:
+   - In the Appearance section of Chrome settings (accessed via `chrome://settings/`), make sure your Page zoom is set to 100%. This setting ensures accurate rendering of Figma files, especially at higher resolutions.
+
+3. Enable Hardware Acceleration:
+   - Scroll down in Chrome settings and click on the Advanced link to expand the settings.
+   - In the System section, enable "Use hardware acceleration when available." This setting leverages your computer's graphics hardware for improved performance.
+
+4. WebGL Configuration (If Not Enabled):
+   - If WebGL isn't enabled, access Chrome's Flags settings by typing `chrome://flags/` in the address bar.
+   - Update the "Override software rendering list" setting to "Enabled." This should be located near the top of the list.
+   - Alternatively, you can search for WebGL-related flags and set them to "Enabled."
+
+5. Adjust macOS Trackpad Settings (Mac Only):
+   - If you are using a Mac, disabling the left/right swipe gesture can prevent accidental closing of Figma files when scrolling within the canvas.
+   - Open System Preferences and navigate to Trackpad settings.
+   - Go to the "More Gestures" tab.
+   - Disable the "Swipe between pages" option in order to prevent unintended actions while working in Figm
